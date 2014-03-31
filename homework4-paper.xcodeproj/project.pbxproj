@@ -19,6 +19,8 @@
 		11F6DCBF18E7E11700B2F569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6DCA718E7E11700B2F569 /* UIKit.framework */; };
 		11F6DCC718E7E11700B2F569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11F6DCC518E7E11700B2F569 /* InfoPlist.strings */; };
 		11F6DCC918E7E11700B2F569 /* homework4_paperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6DCC818E7E11700B2F569 /* homework4_paperTests.m */; };
+		11F6DCD518E7E12700B2F569 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6DCD318E7E12700B2F569 /* MainViewController.m */; };
+		11F6DCD618E7E12700B2F569 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F6DCD418E7E12700B2F569 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		11F6DCC418E7E11700B2F569 /* homework4-paperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homework4-paperTests-Info.plist"; sourceTree = "<group>"; };
 		11F6DCC618E7E11700B2F569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11F6DCC818E7E11700B2F569 /* homework4_paperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homework4_paperTests.m; sourceTree = "<group>"; };
+		11F6DCD218E7E12700B2F569 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		11F6DCD318E7E12700B2F569 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		11F6DCD418E7E12700B2F569 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				11F6DCB318E7E11700B2F569 /* AppDelegate.m */,
 				11F6DCB518E7E11700B2F569 /* Images.xcassets */,
 				11F6DCAA18E7E11700B2F569 /* Supporting Files */,
+				11F6DCD218E7E12700B2F569 /* MainViewController.h */,
+				11F6DCD318E7E12700B2F569 /* MainViewController.m */,
+				11F6DCD418E7E12700B2F569 /* MainViewController.xib */,
 			);
 			path = "homework4-paper";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F6DCAE18E7E11700B2F569 /* InfoPlist.strings in Resources */,
+				11F6DCD618E7E12700B2F569 /* MainViewController.xib in Resources */,
 				11F6DCB618E7E11700B2F569 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F6DCB418E7E11700B2F569 /* AppDelegate.m in Sources */,
+				11F6DCD518E7E12700B2F569 /* MainViewController.m in Sources */,
 				11F6DCB018E7E11700B2F569 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
